@@ -1,4 +1,4 @@
-public class Patient {
+public class software {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double totalBill = 0;
