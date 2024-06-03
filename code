@@ -1,0 +1,14 @@
+public class Patient {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        double totalBill = 0;
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("Enter bill amount for patient " + i + ": ");
+            double billAmount = scanner.nextDouble();
+            totalBill += billAmount;
+        }
+
+        System.out.println("Total bill for all 10 patients: " + totalBill);
+    }
+}
